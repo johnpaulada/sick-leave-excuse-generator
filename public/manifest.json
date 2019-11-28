@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SL Excuse Gen",
+  "name": "Sick Leave Excuse Generator",
   "icons": [
     {
       "src": "favicon.ico",
