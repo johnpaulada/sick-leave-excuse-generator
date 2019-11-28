@@ -3,17 +3,25 @@ import Generatr from './Generatr'
 const relationships = [
     'girlfriend',
     'boyfriend',
+    'cousin',
+    'uncle',
+    'aunt',
     'mother',
     'father',
     'grandfather',
     'grandmother',
     'dog',
-    'cat'
+    'cat',
+    'imaginary friend'
 ]
 
 const accident = [
     'fell down the stairs',
-    'crashed into a tree'
+    'crashed into a tree',
+    'got someone pregnant',
+    'got run over',
+    'broke my arm',
+    'broke my leg'
 ]
 
 const modifier = [
@@ -35,7 +43,8 @@ const disorder = [
     'smallpox',
     'polio',
     'depression',
-    'insanity'
+    'insanity',
+    'existential crisis'
 ]
 
 const grammar = {
