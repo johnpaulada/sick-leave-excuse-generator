@@ -29,10 +29,11 @@ const accident = [
 ]
 
 const modifier = [
-    'mild',
-    'acute',
-    'chronic',
-    'severe'
+    'mild ',
+    'acute ',
+    'chronic ',
+    'severe ',
+    ''
 ]
 
 const disorder = [
@@ -58,6 +59,7 @@ const disorder = [
     'death',
     'suicidal ideation',
     'food poisoning',
+    'depression',
     'a depressive episode',
     'stroke',
     'asthma',
@@ -80,7 +82,18 @@ const disorder = [
     'hepatitis',
     'leukemia',
     'burns',
-    'meningitis'
+    'meningitis',
+    'idontwannaworkism',
+    'idontwannaworkitis',
+    'financialindependencitis',
+    'sleep apnea',
+    'insomnia',
+    'somnabulism',
+    'narcolepsy',
+    'hypersomnia',
+    'dyssomnia',
+    'anorexia',
+    'bulimia'
 ]
 
 const person = [
@@ -89,7 +102,7 @@ const person = [
 ]
 
 const excuse = [
-    '{{person}} {{modifier}} {{disorder}}.',
+    '{{person}} {{modifier}}{{disorder}}.',
     'I {{accident}}.'
 ]
 
