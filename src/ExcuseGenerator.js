@@ -12,6 +12,7 @@ const relationships = [
     'grandmother',
     'dog',
     'cat',
+    'fish',
     'imaginary friend'
 ]
 
@@ -21,7 +22,10 @@ const accident = [
     'got someone pregnant',
     'got run over',
     'broke my arm',
-    'broke my leg'
+    'broke my leg',
+    'run someone over',
+    'got stabbed',
+    'got mugged'
 ]
 
 const modifier = [
@@ -38,25 +42,64 @@ const disorder = [
     'migraine',
     'headache',
     'stomachache',
+    'stomach flu',
     'vertigo',
     'chickenpox',
     'smallpox',
     'polio',
     'depression',
     'insanity',
-    'existential crisis'
+    'existential crisis',
+    'rabies',
+    'flu',
+    'dengue',
+    'diarrhea',
+    'loose bowel movement (LBM)',
+    'death',
+    'suicidal ideation',
+    'food poisoning',
+    'a depressive episode',
+    'stroke',
+    'asthma',
+    'ebola fever',
+    'diabetes',
+    'a panic attack',
+    'cardiac arrest',
+    'hypertension',
+    'goiter',
+    'hyperthyroidism',
+    'hypothyroidism',
+    'tuberculosis',
+    'hernia',
+    'hemorrhoids',
+    'arthritis',
+    'seizures',
+    'bronchitis',
+    'emphysema',
+    'cirrhosis',
+    'hepatitis',
+    'leukemia',
+    'burns',
+    'meningitis'
+]
+
+const person = [
+    'I have',
+    'My {{relationships}} has'
+]
+
+const excuse = [
+    '{{person}} {{modifier}} {{disorder}}.',
+    'I {{accident}}.'
 ]
 
 const grammar = {
-    excuse: [
-        'My {{relationships}} has {{modifier}} {{disorder}}.',
-        'I have {{modifier}} {{disorder}}.',
-        'I {{accident}}.'
-    ],
+    excuse,
     relationships,
     disorder,
     modifier,
-    accident
+    accident,
+    person
 }
 
 export default Generatr(grammar)
